@@ -217,8 +217,20 @@
     "DefaultDesktopApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "e68398bb-5924-49b3-b141-6c4537d72cf2",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/dcatalisgov/POCBenchmark",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/dcatalisgov/POCBenchmark"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
@@ -260,7 +272,7 @@
     "ResponsiveBrowserWidth": 375,
     "ResponsiveBrowserHeight": 812,
     "ResponsiveBrowserUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-    "ActiveTheme": "Light",
+    "ActiveTheme": "Dark",
     "ShowStepResultDetails": false
   }
 }

@@ -220,11 +220,11 @@
     "SourceControlRepository": {
       "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
       "__value": {
-        "RemotePath": "https://github.com/dcatalisgov/POCBenchmark",
+        "RemotePath": "https://github.com/dcatalisgov/POCBenchmark.git",
         "ServerInfo": {
           "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
           "__value": {
-            "ServerName": "https://github.com/dcatalisgov/POCBenchmark"
+            "ServerName": "https://github.com/dcatalisgov/POCBenchmark.git"
           }
         },
         "ServerType": 2

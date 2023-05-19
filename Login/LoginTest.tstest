@@ -75,7 +75,7 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
                         "__value": {
                           "Name": "Benchmark Log In - Version 2.10.16.0",
-                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                          "FriendlyName": "Benchmark Log In"
                         }
                       },
                       "FindExpression": {
@@ -184,7 +184,7 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
                         "__value": {
                           "Name": "Benchmark Log In - Version 2.10.16.0",
-                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                          "FriendlyName": "Benchmark Log In"
                         }
                       },
                       "FindExpression": {
@@ -297,7 +297,7 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
                         "__value": {
                           "Name": "Benchmark Log In - Version 2.10.16.0",
-                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                          "FriendlyName": "Benchmark Log In"
                         }
                       },
                       "FindExpression": {
@@ -400,7 +400,7 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
                         "__value": {
                           "Name": "Benchmark Log In - Version 2.10.16.0",
-                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                          "FriendlyName": "Benchmark Log In"
                         }
                       },
                       "FindExpression": {
@@ -507,7 +507,7 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
                         "__value": {
                           "Name": "Benchmark Log In - Version 2.10.16.0",
-                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                          "FriendlyName": "Benchmark Log In"
                         }
                       },
                       "FindExpression": {
@@ -614,7 +614,7 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
                         "__value": {
                           "Name": "Benchmark Log In - Version 2.10.16.0",
-                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                          "FriendlyName": "Benchmark Log In"
                         }
                       },
                       "FindExpression": {
@@ -726,7 +726,7 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
                         "__value": {
                           "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
-                          "FriendlyName": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))"
+                          "FriendlyName": "Benchmark Principal Page"
                         }
                       },
                       "FindExpression": {

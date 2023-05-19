@@ -1,0 +1,848 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2023.1.329.1, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Messaging, Version=2023.1.329.1, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2023.1.329.1, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2023.1.329.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2023.1.329.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2023.1.329.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2023.1.329.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2023.1.329.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2023.1.329.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestStudio.Translators.Common, Version=2023.1.329.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+    ],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "5c2ff40d-d3ac-40a3-a05d-8ff23a0994bf",
+            "Description": "LeftClick on EditUserName",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 40,
+                "YOffset": 10,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark Log In - Version 2.10.16.0",
+                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "QmFD4o91hhkhD4lwTyC7ZPH05Oo=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "EditUserName",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Edit"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=1"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopEdit",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginTest1bycimik.2ix",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "63fc1ef5-1882-4a22-b42c-268c4fb2bed9",
+            "Description": "Update text to 'dzaraza' of EditUserName",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.UpdateEditTextDescriptor",
+              "__value": {
+                "Text": "dzaraza",
+                "SimulateRealTyping": false,
+                "TypingDelay": 10,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark Log In - Version 2.10.16.0",
+                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "QmFD4o91hhkhD4lwTyC7ZPH05Oo=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "EditUserName",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Edit"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=1"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopEdit",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginTestr21azwyp.hdi",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "a9b7d69e-69bd-4c39-8d71-3e4e0e0f8c32",
+            "Description": "LeftClick on EditPassword",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 13,
+                "YOffset": 5,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark Log In - Version 2.10.16.0",
+                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "DwSypNVju0gOKb7jPh5ZaD6xVWM=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "EditPassword",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Edit"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopEdit",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginTestdnczqgly.o23",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "0e9cd33a-79bf-42cc-848e-0f1794627bbb",
+            "Description": "Update text to 'Pioneer1' of EditPassword",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.UpdateEditTextDescriptor",
+              "__value": {
+                "Text": "Pioneer1",
+                "SimulateRealTyping": false,
+                "TypingDelay": 10,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark Log In - Version 2.10.16.0",
+                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "DwSypNVju0gOKb7jPh5ZaD6xVWM=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "EditPassword",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Edit"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopEdit",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginTestwth2tnqx.lk1",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "e182b364-494c-4472-aec1-a98da78ed645",
+            "Description": "LeftClick on ComboBoxDatabase",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 92,
+                "YOffset": 11,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark Log In - Version 2.10.16.0",
+                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "RYF6cHed8F8caDxN3um1D4Fl8JU=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "ComboBoxDatabase",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=ComboBox"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 5,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginTest5tklr1dq.jqr",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "fce5caaa-6c0b-496f-84e8-0bf6bb867bc6",
+            "Description": "LeftDoubleClick on ButtonLogIn",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 47,
+                "YOffset": 14,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 3,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark Log In - Version 2.10.16.0",
+                          "FriendlyName": "Benchmark Log In - Version 2.10.16.0"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "enO9d025BzdwHsqNr//Xc4HhY0w=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "ButtonLogIn",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Button"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=2"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginTestgxzhbkij.fpt",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "00e53667-f6ac-41d6-81e7-56de0307ea4b",
+            "Description": "Verify value of TitleBar 'Exact' Benchmark  -...",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Verifications.ValueVerificationDescriptor",
+              "__value": {
+                "Value": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                "CompareType": 0,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "y83UFz1WeZOxys9kkEoAdEJuYag=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "TitleBar",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=TitleBar"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 7,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginTestlr0hwtyg.fwe",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "DesktopAppPath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+    "UseDefaultDesktopAppPath": false,
+    "TestAssembly": "POCBenchmark.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "",
+    "IsManual": false,
+    "ResourceFilePath": "Login\\LoginTest.resx",
+    "ElementImageStoreFilePath": "Login\\LoginTest.imgstore",
+    "HasCodeBehind": false,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "LoginTest",
+    "Owner": "",
+    "Path": "Login\\LoginTest.tstest",
+    "Priority": 0,
+    "TestType": 5,
+    "UniqueId": "cf40cbd1-67f2-43a2-8609-ea34862a0dcf",
+    "Id": "cf40cbd1-67f2-43a2-8609-ea34862a0dcf",
+    "ProjectId": "e68398bb-5924-49b3-b141-6c4537d72cf2",
+    "Version": 200
+  }
+}

@@ -95,6 +95,14 @@
           "Path": "Login\\LoginTest.tstest",
           "PathType": 0
         }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "5d50a498-ee33-49f8-a0f3-d59ca037483b",
+          "Path": "Login\\CreateCase.tstest",
+          "PathType": 0
+        }
       }
     ],
     "Filter": {

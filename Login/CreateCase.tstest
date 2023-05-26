@@ -293,13 +293,126 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "e9df9dc6-4ec9-4ffe-907b-476833cd5151",
+            "Runtime ID": "2edd3fdf-e97b-4513-8ace-fed0f99e3d2c",
+            "Description": "LeftClick on EditCourtType",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 28,
+                "YOffset": 15,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "QmFD4o91hhkhD4lwTyC7ZPH05Oo=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "EditCourtType",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Edit"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=1"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopEdit",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCase3es5u5eg.k54",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "421f5c74-e164-4534-a943-376390902055",
             "Description": "LeftClick on PaneLoading",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
               "__value": {
-                "XOffset": 8,
+                "XOffset": 5,
                 "YOffset": 8,
                 "OffsetType": 0,
                 "UnitType": 0,
@@ -393,11 +506,2077 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CreateCasec3bwla1s.yrt",
+            "StepImageKey": "CreateCasei5icin5h.ijd",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "cf8f865f-7637-4883-9417-6f9b8ed098ad",
+            "Description": "LeftDoubleClick on ItemDescription0",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 44,
+                "YOffset": 10,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 3,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "/PQaT1mO3+UrPr6TCaiWJikaecQ=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "ItemDescription0",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=DataItem"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=13"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasetkbvc0g5.apr",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "096d44ac-ffce-4e7e-acfb-11561b5001a0",
+            "Description": "LeftClick on ItemDescription0",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 44,
+                "YOffset": 10,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "/PQaT1mO3+UrPr6TCaiWJikaecQ=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "ItemDescription0",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=DataItem"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=13"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 7,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCaseu4zxqcth.zc1",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "8ec0fc07-c0a2-403a-ab66-20416eee5a40",
+            "Description": "Press Key Tab",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.KeyPressDescriptor",
+              "__value": {
+                "Key": 9,
+                "Modifiers": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElementsTimeout": 30000,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 8,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCase3ato1ter.xbg",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "58868a36-17c5-4f75-a1db-00975fefb53f",
+            "Description": "LeftClick on Edit",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 41,
+                "YOffset": 6,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "SByIzWfmmqYkqPFzNl9aHyuD5Oo=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "Edit0",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Edit"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=4"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopEdit",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCase12tcsjvx.ufg",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "ef571b8d-2af3-4daa-9f1e-82d1f63c5122",
+            "Description": "LeftClick on PaneLoading",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 9,
+                "YOffset": 7,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "CdsGFVUI53Y5ZcLlgvD7mfTss5c=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "PaneLoading0",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Pane"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=9"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 10,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasevhuvfxig.bzn",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "18c4a5f9-f6ed-4841-9d07-fe893dc68883",
+            "Description": "Press Key Tab",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.KeyPressDescriptor",
+              "__value": {
+                "Key": 9,
+                "Modifiers": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElementsTimeout": 30000,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 11,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasevsryz1hy.4qj",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "f745baad-8495-46eb-b090-af6c2bbd38f5",
+            "Description": "LeftClick on DateAndTimePicker",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 78,
+                "YOffset": 13,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "NfYXCCRIJFht13eqUKWGV4TJ8CM=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "DateAndTimePicker",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=ComboBox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=1"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 12,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasej3s1konx.abo",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "8a149dcd-1539-480a-9654-dff6860b1d37",
+            "Description": "LeftClick on Item",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 12,
+                "YOffset": 6,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PmOVZEyh7XSYQvNyHOlQ0qxeE3w=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "Item",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=DataItem"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=2"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 13,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasewfqr2vm2.xfn",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "ad54a48b-8f39-4624-8ac5-363b558c7935",
+            "Description": "LeftClick on Item",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 93,
+                "YOffset": 11,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PmOVZEyh7XSYQvNyHOlQ0qxeE3w=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "Item",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=DataItem"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=2"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 14,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCaseptrotirp.caz",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "911cac7a-0560-422f-a0e4-cf784e6aa802",
+            "Description": "LeftClick on Item",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 93,
+                "YOffset": 11,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PmOVZEyh7XSYQvNyHOlQ0qxeE3w=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "Item",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=DataItem"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=2"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 15,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasej0yr2rzl.cen",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "0ec352b9-26ff-42ca-84ba-3d113b3b42b3",
+            "Description": "LeftClick on ItemRow2Column2",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 75,
+                "YOffset": 12,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "j5mEyeQTUs79BotnEWOWAbhkd5Y=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "ItemRow2Column2",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=DataItem"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=8"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 16,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasezccaj54e.obp",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "be2f1dc8-1d86-4175-a1a2-48010dae936d",
+            "Description": "LeftClick on ItemRow2Column2",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 75,
+                "YOffset": 12,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "j5mEyeQTUs79BotnEWOWAbhkd5Y=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "ItemRow2Column2",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=DataItem"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=8"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 17,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasedhx4my2f.2t4",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "1677f1f8-2576-469e-939c-0f109f8abab6",
+            "Description": "LeftClick on ButtonNext",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 47,
+                "YOffset": 12,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "3YfzvyB1fXSggC7P9MHpSPjwywQ=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "ButtonNext",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Button"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=14"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 18,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasewdng5uvz.tuk",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "494031d7-db19-45ca-8217-e1ba7eb6bafb",
+            "Description": "LeftClick on PaneLowerTribunalCase0",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 9,
+                "YOffset": 7,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "We3/jWjtQYEbaquEvIosSWXYbIw=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "PaneLowerTribunalCase0",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Pane"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=3"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 19,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCaseynaefzl5.ni0",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "23ffd742-8029-4688-adc1-4f75d27d0ad1",
+            "Description": "Press Key Tab",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.KeyPressDescriptor",
+              "__value": {
+                "Key": 9,
+                "Modifiers": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElementsTimeout": 30000,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 20,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasepqmzaowr.uie",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "9ad7ec67-c62a-45dc-afc8-054a6386e602",
+            "Description": "LeftClick on PaneLoading",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 9,
+                "YOffset": 6,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "ZWIu/HwXkaL13u0E//e/JoX2OFM=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "PaneLoading",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Pane"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=4"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 21,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCase1asz0iup.ceg",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "f7b8a2b9-8c08-46d6-b9e3-97111ab718d1",
+            "Description": "Press Key Tab",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.KeyPressDescriptor",
+              "__value": {
+                "Key": 9,
+                "Modifiers": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElementsTimeout": 30000,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 22,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasege53l1wc.arp",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "1ab22be3-eb02-4548-b308-dfa8d2cdf00b",
+            "Description": "LeftClick on Edit",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 62,
+                "YOffset": 11,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "DwSypNVju0gOKb7jPh5ZaD6xVWM=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "Edit",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Edit"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopEdit",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 23,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasevktuy1zl.y4p",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "e6a68366-4c14-4c6c-94cb-a01ea9d9999c",
+            "Description": "Update text to '99893883' of Edit",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.UpdateEditTextDescriptor",
+              "__value": {
+                "Text": "99893883",
+                "SimulateRealTyping": false,
+                "TypingDelay": 10,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "DwSypNVju0gOKb7jPh5ZaD6xVWM=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "Edit",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Edit"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopEdit",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 24,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCasepmaghnye.rqd",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "b7ae14e2-7e28-4fcc-80df-362e844b21d5",
+            "Description": "LeftClick on ButtonNext",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
+              "__value": {
+                "XOffset": 42,
+                "YOffset": 10,
+                "OffsetType": 0,
+                "UnitType": 0,
+                "UseOffset": true,
+                "ClickType": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "3YfzvyB1fXSggC7P9MHpSPjwywQ=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "ButtonNext",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Button"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "groupIndex=14"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 25,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCaset4pb5bba.tlt",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "5a7b5ad1-8976-442b-9224-36d22f2febd3",
+            "Description": "Verify name of GroupEnterCharges 'Exact' Enter Charges",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Verifications.NameVerificationDescriptor",
+              "__value": {
+                "Name": "Enter Charges",
+                "CompareType": 0,
+                "TechnologyType": 8,
+                "SearchByImageFirst": 0,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+                        "__value": {
+                          "ModuleName": "CourtWin",
+                          "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+                          "FriendlyName": "CourtWin"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+                        "__value": {
+                          "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+                          "FriendlyName": "Benchmark Principal Page"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "ulrzJckj0XjucvrQgmStuydhCSA=",
+                          "NodeKind": 5,
+                          "TechnologyType": 8,
+                          "Name": "GroupEnterCharges",
+                          "FindExpressions": [
+                            {
+                              "Key": 8,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                                      "__value": {
+                                        "Clause": "controlTypeName=Group"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+                      "IsIndependent": false,
+                      "DomStateKey": null,
+                      "TechnologyType": 8,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 26,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateCase0tddfl5k.eo5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -406,6 +2585,65 @@
       ]
     },
     "IndependentDescriptors": [
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopAppNode",
+            "__value": {
+              "ModuleName": "CourtWin",
+              "ExecutablePath": "C:\\PTG\\Benchmark\\BenchmarkRelease_v2.10.16.0\\2_ClientUpdate\\CourtWin.exe",
+              "FriendlyName": "CourtWin"
+            }
+          },
+          "Frame": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.DesktopWindowNode",
+            "__value": {
+              "Name": "Benchmark  - Court Case System Software  (User - dzaraza  Connected to - CourtDev (Developer))",
+              "FriendlyName": "Benchmark Principal Page"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+            "__value": {
+              "uniqueKey": "/WKFgYkE/N9erxw0mQAUusl3/48=",
+              "NodeKind": 5,
+              "TechnologyType": 8,
+              "Name": "WindowBenchmarkCourtCaseSystemSoftwareUserDzarazaConnectedToCourtDevDeveloper",
+              "FindExpressions": [
+                {
+                  "Key": 8,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.DesktopAutomation.FindExpressions.DesktopFindClause",
+                          "__value": {
+                            "Clause": "controlTypeName=Window"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "ImageSearchClauses": [],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.DesktopAutomation.Controls.DesktopControl",
+          "IsIndependent": true,
+          "DomStateKey": null,
+          "TechnologyType": 8,
+          "Version": 200
+        }
+      },
       {
         "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
         "__value": {

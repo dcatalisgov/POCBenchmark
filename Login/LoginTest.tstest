@@ -33,7 +33,7 @@
           "__value": {
             "Runtime ID": "5c2ff40d-d3ac-40a3-a05d-8ff23a0994bf",
             "Description": "LeftClick on EditUserName",
-            "CustomDescription": null,
+            "CustomDescription": "Click on username",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.DesktopAutomation.Descriptors.Actions.ElementClickDescriptor",
               "__value": {
